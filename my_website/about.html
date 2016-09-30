@@ -1,61 +1,100 @@
 <!doctype html>
 <html lang="en">
-  
   <head>
+      
+     <style>
+       ul{
+       list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+     </style> 
+      
     <meta charset="utf-8">
     <title>Home</title>
+    <link href="about.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <a href="index.html">Home</a>
-        <a href= "about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <p>Thang Huynh</p>
-        <img src= " " height="250">
-        <p>Grade: 12</p>
-        <table> 
-            <tr class="table">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href= "about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+        <h1 id = "name"> About Thang Huynh </h1>
+        <img src= "images/thang.gif" 
+        height="250">
+        <p class= "white">Grade: 12</p>
+        <table class="table"> 
+            <tr>
                 <th>Class</th>
                 <th>Period</th>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>Calculus AB</td>
                 <td>1</td>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>English 4</td>
                 <td>2</td>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>AP Computer Science Principles</td>
                 <td>3</td>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>AP Chemistry</td>
                 <td>4</td>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>Civics</td>
                 <td>5</td>
             </tr>
-            <tr class="table">
+            <tr>
                 <td>AP Biology</td>
                 <td>6</td>
             </tr>
         </table>
-        <p>Hello! My name is Thang. </p>
-        <p> My hobbies:</p>
-        <ul style="list-style-type:disc">
-            <li>Archery</li>
-            <li>Ultimate Frisbee</li>
-            <li>Video games</li>
-        </ul>
-        <p>4 Most Listened to Songs:</p>
-        <ol>
-            <li>" "</li>
-            <li>"Mirror"</li>
-            <li>"Here I Am"</li>
-            <li>"Plastic Bag"</li>
-        </ol>
-        <p>quote</p>
-        <img src=" " height="250">
+        <p class= "white">Hello! My name is Thang. 
+        I am a senior at La Quinta High School.
+        I enjoy movies, books, video games, and going on hikes.
+        My favorite genre of stories is science fiction.
+        In my opinion, computer science class is super important because the contemporary world is run by computers.
+        </p>
+        <p class= gray> My hobbies:</p>
+        <p class= "white">Ultimate Frisbee <br>
+        Archery <br>
+        Video Games</p>
+    
+        <p class= "gray">4 Most Listened to Songs:</p>
+        <p class= "white">"Viva La Vida" <br>
+        "Plastic Bag" <br>
+        "Mirror" <br> 
+        "Here I Am"</p>
+        <p class= "gray"> Favorite Quote</p>
+        <p class= "white">"You can't control how people will act, Garrus.
+        But you can control how you'll respond. 
+        In the end, that's what really matters." <br>
+        -Shepard</p>
+        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/r180/14433191_1779637065648025_3935185020392036769_n.jpg?oh=7d943075e9bbc822feba102db4561cba&oe=5872C0A2" 
+        height="250">
+        <p class= "white">Behold! My greatest achievement in art. It took 4 hours to make this fish :(</p>
+
 </html>

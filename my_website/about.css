@@ -1,6 +1,14 @@
-
-.table{
-    border-style: solid;
-    border-color: blue;
-    border-width: 1px;
+h1{
+    text-align: center;
 }
+.table{border-style: solid;
+border-color: blue;
+}
+html {background-image: url(http://a1star.com/images/01-star-best.gif);
+}
+.gray {background-color: gray;
+}
+.white {color: white;}
+li {color: white;}
+tr, th {color: white;}
+h1{color: blue;}
