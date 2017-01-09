@@ -12,3 +12,6 @@ html {background-image: url(http://a1star.com/images/01-star-best.gif);
 li {color: white;}
 tr, th {color: white;}
 h1{color: blue;}
+ul{
+    text-align: center;
+}
